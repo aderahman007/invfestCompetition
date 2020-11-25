@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgabu"
+    tools:context=".PembayaranDataPasienActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:elevation="2dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/right_rounded"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginRight="20dp">
+
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="500dp"
+                android:elevation="20dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/contohartikel"
+                    android:scaleType="fitXY"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maison_demi"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:text="Pahoman Klinik"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/maison_book"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Klinik Umum"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_lokasi"
+                        android:drawablePadding="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:text="Sukabumi, Bandar Lampung"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--    batas nama klinik-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_medium"
+                android:textColor="@color/black"
+                android:text="Nama Pasien"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_medium"
+                android:text="Ade Rahman"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_medium"
+                android:textColor="@color/black"
+                android:text="Kontak Pasien"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_medium"
+                android:text="085366125569"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+<!--        Kontak Pasien-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="@font/maison_medium"
+                android:textColor="@color/black"
+                android:text="Kontak Pasien"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/all_rounded"
+                android:backgroundTint="@color/colorcard">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:drawableLeft="@drawable/ic_shield"
+                    android:drawablePadding="16dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/maison_medium"
+                    android:textColor="@color/black"
+                    android:text="Medical Checkup"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_rightbutton"/>
+            </LinearLayout>
+
+<!--            Batas-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="@font/maison_medium"
+                android:textColor="@color/black"
+                android:text="Metode Pembayaran"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/all_rounded"
+                android:backgroundTint="@color/colorcard">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:drawableLeft="@drawable/ic_shield"
+                    android:drawablePadding="16dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/maison_medium"
+                    android:textColor="@color/black"
+                    android:text="Medical Checkup"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_rightbutton"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_medium"
+                android:textColor="@color/colorPrimary"
+                android:text="Pesan Untuk Orang Lain"
+                android:layout_gravity="right" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/maison_medium"
+                    android:textColor="@color/black"
+                    android:text="Waktu Pelayanan"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/maison_book"
+                    android:text="Sel, 12 Agustus 2020"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/all_rounded"
+                android:backgroundTint="@color/colorcard">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:textSize="14sp"
+                    android:drawableLeft="@drawable/ic_clock"
+                    android:drawablePadding="16dp"
+                    android:fontFamily="@font/maison_medium"
+                    android:textColor="@color/black"
+                    android:text="11:30 - 13:00"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/maison_book"
+                android:text="Catatan \n\nApabila pasien dating terlambat saat waktu yang telah ditetapkan oleh System antrian. Maka pengguna akan dialihkan pada antrian jam selanjutnya yang kosong."/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Simpan dan Lanjutkan"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/top_rounded"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
