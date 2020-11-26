@@ -7,6 +7,20 @@
     android:background="@color/bgabu"
     tools:context=".ButuhMedisActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -170,7 +184,7 @@
                                         android:layout_width="70dp"
                                         android:layout_height="wrap_content"
                                         android:layout_marginRight="16dp"
-                                        android:drawableLeft="@drawable/ic_height"
+                                        android:drawableLeft="@drawable/ic_radar"
                                         android:drawablePadding="10dp"
                                         android:fontFamily="@font/maison_medium"
                                         android:textSize="12sp"
@@ -254,7 +268,7 @@
                                         android:layout_width="70dp"
                                         android:layout_height="wrap_content"
                                         android:layout_marginRight="16dp"
-                                        android:drawableLeft="@drawable/ic_height"
+                                        android:drawableLeft="@drawable/ic_radar"
                                         android:drawablePadding="10dp"
                                         android:fontFamily="@font/maison_medium"
                                         android:textSize="12sp"

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ButuhMedisActivity"></activity>
+        <activity android:name=".DetailApotekActivity"></activity>
+        <activity android:name=".BelanjaObatActivity" />
+        <activity
+            android:name=".DetailKlinikActivity"
+            android:label="@string/title_activity_detail_klinik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ButuhMedisActivity" />
         <activity android:name=".LihatPetaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
